@@ -28,6 +28,4 @@ while($rows = mysqli_fetch_assoc($result)){
   echo $rows['sno'] . ". Hello " . $rows['name'] . ", Welcome to jungle";
   echo "<br>";
 }
-
-
 ?>
