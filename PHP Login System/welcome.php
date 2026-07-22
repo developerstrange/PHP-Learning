@@ -21,7 +21,16 @@ if(!isset($_SESSION['loggedin']) || $_SESSION != TRUE){
   </head>
   <body>
     <?php  require 'partials/_nav.php'  ?>
-    <h1>Welcome - <?php echo $_SESSION['username'];  ?></h1>
+
+
+    <div class="container my-4">
+      <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username'];  ?></h4>
+      <p>Hey, how are u doing? U finally logged in as a successful user in iSecure.<br>Welcome to iSecure.<br>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+      <hr>
+      <p class="mb-0">Whenever you need to log out be sure <a href="/PHP-Learning/PHP%20Login%20System/logout.php">using this link.</p>
+    </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
