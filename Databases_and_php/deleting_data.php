@@ -5,7 +5,7 @@ echo"Deleting data using WHERE clause<br>";
 
 $servername = 'localhost';
 $username = 'root';
-$password = '769';
+$password = '';
 $database = 'db_harry';
 
 $conn = mysqli_connect($servername, $username, $password, $database);

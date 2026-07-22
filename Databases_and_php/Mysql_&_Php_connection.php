@@ -16,7 +16,7 @@ echo "<br>";
 // Creating the variables
 $servername = "localhost";
 $username = "root";
-$password = "769";
+$password = "";
 
 
 // Create a connection object

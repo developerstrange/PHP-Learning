@@ -4,7 +4,7 @@ echo "We will now learn how to insert data in a database table using PHP query";
 
 $servername = "localhost";
 $username = "root";
-$password = "769";
+$password = "";
 $database = "db_harry";
 
 $conn = mysqli_connect($servername, $username, $password, $database);

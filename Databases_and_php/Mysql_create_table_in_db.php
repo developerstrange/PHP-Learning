@@ -5,7 +5,7 @@ echo "This is the stage where we will learn how to create a DB using php<br>";
 // creating variables
 $servername = "localhost";
 $username = "root";
-$password = "769";
+$password = "";
 $database = "db_harry";
 
 // Create a connection object
